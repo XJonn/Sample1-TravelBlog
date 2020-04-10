@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+main{
+    padding: 0px 40px;
+}
+
+header{
+    text-align: center;
+}
+
+header p{
+    margin-top: 0px;
+}
+
+header h1{
+    margin-bottom: 0px;
+}
