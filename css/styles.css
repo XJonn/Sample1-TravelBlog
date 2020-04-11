@@ -1,19 +1,110 @@
+
+/* Background Color & default margin removal */
 body{
     margin: 0px;
+    background-color: rgb(49, 49, 49);
 }
 
+/* content centering */
 main{
     padding: 0px 40px;
 }
 
+/* Heading: Making it bigger, centering text, and black color */
 header{
+    padding-top: 10px;
+    padding-bottom: 30px;
     text-align: center;
+    background-color: black;
 }
 
+/* Moving subtitle closer to title (h1), sub T. font, and color */
 header p{
     margin-top: 0px;
+    font-family: 'Courgette', cursive;
+    color: goldenrod;
 }
 
+/* Title font, size, bold, and color */
 header h1{
     margin-bottom: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+/* Body headings font, space between content, and color */
+h2{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: goldenrod;
+}
+
+/* Body content font & color, as well as space between p and "links" h2 */
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    padding-bottom: 20px;
+}
+
+/* Text content alignment with photos */
+body h2, p{
+    margin: 0 50px;
+}
+
+/* Image orientation correction, down sizing, rounding out border, border 
+style color & weight, and border color. Also spacing between images (margin) */
+.collage img{
+    image-orientation: from-image;
+    max-width: 30%;
+    border-radius: 5px;
+    border: solid goldenrod 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Flex box attributes, centering the images, and space between other elements */
+.collage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Resizing Social Media Icons */
+.links img{
+    width: 80px;
+    margin-left: 50px;
+}
+
+/* About section color, border style color and weight, border smoothness, and space 
+between Social Links */
+.about div{
+    background-color: rgb(27, 27, 27);
+    border: solid black 10px;
+    border-radius: 12px;
+    margin: 20px 40px; 
+
+}
+
+/* Social Link section color, border style color and weight, space between other 
+content and centering */
+.links div{
+    background-color: rgb(27, 27, 27);
+    border: solid black 10px;
+    border-radius: 10px;
+    margin: 20px 40px; 
+    padding-bottom: 20px;
+
+}
+
+/* Footer color, centering the text, and filling in the footer */
+footer{
+    background-color: goldenrod;
+    text-align: center;
+    padding: 1px 0;   
 }
